@@ -1,5 +1,5 @@
 # Contributing
-***
+
 ## Initial Setup
 Clone the repository to your local machine
 - `git clone https://github.com/Hunter-Open-Source-Club/hacktoberfest21.cpp.git`
@@ -8,3 +8,5 @@ Clone the repository to your local machine
 To run the current build of the program
 - `make`
 - `./main`
+
+## **Did you find a bug?**
