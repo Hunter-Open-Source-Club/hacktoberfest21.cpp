@@ -1,8 +1,8 @@
 main: main.o
-	g++ -Wall -Werror -o main main.o reservoir.o reverseorder.o
+	g++ -Wall -Werror -o main main.o 
 
 main.o: main.cpp
 	g++ -c main.cpp
 
 clean:
-	rm -f main.o 
+	rm -f main.o
