@@ -1,4 +1,4 @@
-#Contributing
+__Contributing__
 ***
 ##Initial Setup
 Clone the repository to your local machine
