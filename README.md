@@ -13,3 +13,6 @@ We're planning to use the terminal interface to test-out all implemented feature
 ### Contribute  
 Take a look at [CONTRIBUTE.MD](https://github.com/Hunter-Open-Source-Club/hacktoberfest21.cpp/blob/main/CONTRIBUTING.md) for contribution guidelines and the [Issues](https://github.com/Hunter-Open-Source-Club/hacktoberfest21.cpp/issues)
 of the repository to see what you can add to the project!
+
+### Note that we're prioritizing PR's from Hunter College students or the greater CUNY community.
+For more information, or if you get stuck and need help, go to https://discord.gg/PwrkJYkdAz where GDSC members help you! Feel free to email isabelabonitalla@gmail.com with questions or concerns as well, just add `[Hacktoberfest]` to the subject line. Thanks for your help!!
