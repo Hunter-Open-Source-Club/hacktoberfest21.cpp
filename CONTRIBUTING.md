@@ -24,13 +24,6 @@ Before we get started, here are a few things we expect from you (and that you sh
 * If you open a pull request, please ensure that your contribution passes all tests. If there are test failures, you will need to address them before we can merge your contribution.
 * When adding content, please consider if it is widely valuable. Please don't add references or links to things you or your employer have created as others will do so if they appreciate it.
 
-
-## How to contribute
-
-If you'd like to contribute, start by searching through the [issues](https://github.com/github/opensource.guide/issues) and [pull requests](https://github.com/github/opensource.guide/pulls) to see whether someone else has raised a similar idea or question.
-
-If you don't see your idea listed, and you think it fits into the goals of this guide, open a pull request.
-
 ## Setting up your environment
 Clone the repository to your local machine
 - `git clone https://github.com/Hunter-Open-Source-Club/hacktoberfest21.cpp.git`
@@ -39,6 +32,21 @@ Clone the repository to your local machine
 To run the current build of the program
 - `make`
 - `./main`
+
+## How to contribute
+
+If you'd like to contribute, start by searching through the [issues](https://github.com/github/opensource.guide/issues) and [pull requests](https://github.com/github/opensource.guide/pulls) to see whether someone else has raised a similar idea or question.
+
+### Open an issue
+* To report an error you can't solve yourself
+* To discuss a higher level idea (vision, mission, impact)
+* To propose a new feature or idea
+
+### Open a pull request
+* To submit trivial fixes
+* To start work on a contribution that was asked for
+
+If you don't see your idea listed, and you think it fits into the goals of this guide, open an issue to discuss the details.
 
 ## **Did you find a bug?**
 * **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/Hunter-Open-Source-Club/hacktoberfest21.cpp/issues)
@@ -52,7 +60,13 @@ To run the current build of the program
 
 ## **Did you write a patch that fixes a bug?**
 * Open a new GitHub pull request with the patch.
-* Ensure the PR description clearly describes the problem and solution. Include the relevant issue number if applicable.
+* Ensure the PR description clearly describes the problem and solution.
+* Link the issue number to PR if applicable.
+
+## **Did you implement a requested feature?**
+* Open a new GitHub pull request with the implementation.
+* Ensure the PR description clearly describes the problem and solution.
+* Link the issue number to PR if applicable.
 
 ## Pull Requests
 * Do not commit/push directly to the master branch. Instead, create a fork and file a pull request.
