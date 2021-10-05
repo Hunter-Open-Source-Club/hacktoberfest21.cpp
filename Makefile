@@ -1,8 +1,24 @@
-main: main.o
-	g++ -Wall -Werror -o main main.o 
+##########################################################
+###       	      DON'T MAKE CHANGES                   ###
+##########################################################
 
-main.o: main.cpp
-	g++ -c main.cpp
+TARGET ?= a.out
+SRC_DIRS ?= ./src
 
+SRCS := $(shell find $(SRC_DIRS) -name *.cpp -or -name *.c -or -name *.s)
+OBJS := $(addsuffix .o,$(basename $(SRCS)))
+DEPS := $(OBJS:.o=.d)
+
+INC_DIRS := $(shell find $(SRC_DIRS) -type d)
+INC_FLAGS := $(addprefix -I,$(INC_DIRS))
+
+CPPFLAGS ?= $(INC_FLAGS) -MMD -MP
+
+$(TARGET): $(OBJS)
+	g++ $(LDFLAGS) $(OBJS) -o $@ $(LOADLIBES) $(LDLIBS)
+
+.PHONY: clean
 clean:
-	rm -f main.o
+	$(RM) $(TARGET) $(OBJS) $(DEPS)
+
+-include $(DEPS)
