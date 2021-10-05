@@ -9,7 +9,7 @@
 
 ## Hunter CS Catalog  
 _What do I even need to graduate?_  
-The interactive program to help you answer that question figure out the classes
+The interactive program to help you answer that question and figure out the classes
 you need to finish getting your degree.
 Able to check:
 - What kind of CS classes are needed to graduate.
@@ -18,7 +18,7 @@ Able to check:
 We're planning to use the terminal interface to test-out all implemented features for now before beginning to host it on the web, possibly with react or flask.
 
 ### Contribute  
-Take a look at [CONTRIBUTE.MD](https://github.com/Hunter-Open-Source-Club/hacktoberfest21.cpp/blob/main/CONTRIBUTING.md) for contribution guidelines and the [Issues](https://github.com/Hunter-Open-Source-Club/hacktoberfest21.cpp/issues)
+Take a look at [CONTRIBUTING.MD](https://github.com/Hunter-Open-Source-Club/hacktoberfest21.cpp/blob/main/CONTRIBUTING.md) for contribution guidelines and the [Issues](https://github.com/Hunter-Open-Source-Club/hacktoberfest21.cpp/issues)
 of the repository to see what you can add to the project!
 
 ### Note that we're prioritizing PR's from Hunter College students or the greater CUNY community.
